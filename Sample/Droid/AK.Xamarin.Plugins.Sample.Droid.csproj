@@ -83,12 +83,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AK.Xamarin.Plugins.Sample\AK.Xamarin.Plugins.Sample.csproj">
-      <Project>{018A597D-673A-4759-8D74-80E8C00946B6}</Project>
-      <Name>AK.Xamarin.Plugins.Sample</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

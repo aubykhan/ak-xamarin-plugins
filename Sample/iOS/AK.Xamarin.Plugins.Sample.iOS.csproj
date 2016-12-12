@@ -103,12 +103,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AK.Xamarin.Plugins.Sample\AK.Xamarin.Plugins.Sample.csproj">
-      <Project>{018A597D-673A-4759-8D74-80E8C00946B6}</Project>
-      <Name>AK.Xamarin.Plugins.Sample</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
   </ItemGroup>
