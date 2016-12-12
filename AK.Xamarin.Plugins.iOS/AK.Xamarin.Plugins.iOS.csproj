@@ -63,10 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Renderer\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderer\CardViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AK.Xamarin.Plugins\AK.Xamarin.Plugins.csproj">
