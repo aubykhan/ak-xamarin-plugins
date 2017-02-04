@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="Samples.SamplesPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ak="clr-namespace:AK.Xamarin.Controls;assembly=AK.Xamarin.Plugins;"
+             xmlns:local="clr-namespace:Samples">
+    <Grid Padding="8" RowSpacing="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ak:CardView Grid.Row="0" Padding="16">
+            <Label HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                   Text="Card1"
+                   VerticalTextAlignment="Center" />
+        </ak:CardView>
+
+        <ak:CardView Grid.Row="1" Padding="16">
+            <Label HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                   Text="Card1"
+                   VerticalTextAlignment="Center" />
+        </ak:CardView>
+
+    </Grid>
+</ContentPage>
